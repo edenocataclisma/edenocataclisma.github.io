@@ -2,17 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eden - O Cataclisma</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/sentence.js"></script>
+    <script src="js/show.js"></script>
+    <script src="js/audio.js"></script>
 </head>
-<body>
+<body onload="mostrar(), cataclisma()">
     <div class="box">
         <span class="element elemento1"></span>
+        <div id="show" class="book">
+            <a href="https://www.wattpad.com/408151227-%C3%A9den-pr%C3%B3logo"><img class="eden" id="eden" src="img/eden.gif" alt=""></a>
+            <a id="link" href="https://www.wattpad.com/408151227-%C3%A9den-pr%C3%B3logo">clique para receber as instruções.</a>
+            <p id="credito">Conheça o desenvolvedor: <a id="social" href="#">Breno Freitas</a></p>
+        </div>
     </div>
-
+    
     <script src="js/typed.js"></script>
 </body>
 </html>
