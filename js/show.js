@@ -2,7 +2,7 @@
 var myVar = document.getElementById('show');
 
 function mostrar() {
-    myVar = setTimeout(alertFunc, 1000);
+    myVar = setTimeout(alertFunc, 68000);
 }
 
 function alertFunc() {
