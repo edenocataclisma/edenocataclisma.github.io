@@ -140,15 +140,16 @@ body{
 }
 
 #credito{
-    position: relative;
+    position: absolute;
     max-width: 100vw;
     text-align: center;
-    margin: 1.5em;
+    margin-left: .5em;
+    margin-bottom: 1.5em;
     bottom: 0;
-    font-size: 15px;
-    color: #fff;
+    font-size: 13px;
+    color: #5d5d5d;
 }
 
 #social{
-    color: #fff;
+    color: #808080;
 }
